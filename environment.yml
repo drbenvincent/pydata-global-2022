@@ -1,0 +1,21 @@
+# conda env create -f environment.yml
+# conda activate whatif
+# python -m ipykernel install --user --name whatif
+
+name: whatif
+channels:
+  - conda-forge
+dependencies:
+- python=3.11
+- pip
+- numpy
+- pymc-base
+- jupyterlab 
+- ipykernel
+- jupyterlab_code_formatter 
+- python-graphviz
+- black 
+- isort
+- statsmodels
+- pip:
+  - daft
