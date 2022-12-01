@@ -6,9 +6,8 @@ name: whatif
 channels:
   - conda-forge
 dependencies:
-- python=3.11
+- python
 - pip
-- numpy
 - pymc-base
 - jupyterlab 
 - ipykernel
@@ -19,3 +18,4 @@ dependencies:
 - statsmodels
 - pip:
   - daft
+  - causalpy==0.0.6

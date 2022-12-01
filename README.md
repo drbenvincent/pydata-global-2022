@@ -13,4 +13,4 @@ conda activate whatif
 python -m ipykernel install --user --name whatif
 ```
 
-**NOTE:** I ran `pip install git+https://github.com/pymc-labs/CausalPy.git` to get the development version. The current release if 0.0.4, so I'm using a later (development) version than this.
+You should then be set up and able to run the notebooks.
